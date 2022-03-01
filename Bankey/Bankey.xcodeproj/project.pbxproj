@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A08ECE8527CEC75B00EF6FAF /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08ECE8427CEC75B00EF6FAF /* OnboardingContainerViewController.swift */; };
+		A08ECE8727CEC9E000EF6FAF /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08ECE8627CEC9E000EF6FAF /* OnboardingViewController.swift */; };
 		A0F3256327C84F0D00182E2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3256227C84F0D00182E2D /* AppDelegate.swift */; };
 		A0F3256727C84F0D00182E2D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3256627C84F0D00182E2D /* LoginViewController.swift */; };
 		A0F3256C27C84F0E00182E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F3256B27C84F0E00182E2D /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		A08ECE8427CEC75B00EF6FAF /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		A08ECE8627CEC9E000EF6FAF /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		A0F3255F27C84F0D00182E2D /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F3256227C84F0D00182E2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0F3256627C84F0D00182E2D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				A08ECE8427CEC75B00EF6FAF /* OnboardingContainerViewController.swift */,
+				A08ECE8627CEC9E000EF6FAF /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -108,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				A08ECE8327CEC73200EF6FAF /* Onboarding */,
-				A0F3256627C84F0D00182E2D /* LoginViewController.swift */,
 				A0F3256B27C84F0E00182E2D /* Assets.xcassets */,
 				A0F3256D27C84F0E00182E2D /* LaunchScreen.storyboard */,
 				A0F3257027C84F0E00182E2D /* Info.plist */,
@@ -146,6 +148,7 @@
 		A0F3259327C8553200182E2D /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				A0F3256627C84F0D00182E2D /* LoginViewController.swift */,
 				A0F3259627C859F500182E2D /* LoginView.swift */,
 			);
 			path = Login;
@@ -283,6 +286,7 @@
 			files = (
 				A0F3259727C859F500182E2D /* LoginView.swift in Sources */,
 				A0F3256727C84F0D00182E2D /* LoginViewController.swift in Sources */,
+				A08ECE8727CEC9E000EF6FAF /* OnboardingViewController.swift in Sources */,
 				A0F3256327C84F0D00182E2D /* AppDelegate.swift in Sources */,
 				A08ECE8527CEC75B00EF6FAF /* OnboardingContainerViewController.swift in Sources */,
 			);
